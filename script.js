@@ -20,14 +20,6 @@ function divshower() {
 
 
 // TESTI FUNKTSIOON MIS KUVAB ETTE OTSINGU REALT SISESTATUD TEKSTI ELEMENTI
-<<<<<<< HEAD
-function done() {
-    var x = document.getElementById("bar").value;
-    var z = document.querySelector(".inf-out").textContent = x;
-    const t = "OTSINGU RIBA ON TÜHI!"
-    if (x == "") {
-        document.querySelector(".inf-out").textContent = "PALUN SISESTAGE PÄRINGUD";
-=======
 // TEST FUNC :/ MAY BE CHANGED
 function done() {
     var x = document.getElementById("bar").value;
@@ -35,7 +27,6 @@ function done() {
     const t = "SEARCH DATA IS EMPTY!"
     if (x == "") {
         document.querySelector(".inf-out").textContent = "INSERT DATA INTO SEARCH BAR!!";
->>>>>>> a695d35 (changes)
         var newDiv = document.createElement("div");
         newDiv.setAttribute("id", "error");
         newDiv.innerHTML = t;
