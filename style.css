@@ -1,6 +1,10 @@
 a {
     display: list-item;
+<<<<<<< HEAD
     line-height: 10em;
+=======
+    line-height: 8em;
+>>>>>>> a695d35 (changes)
     font-size: large;
     color: aliceblue;
     cursor: pointer;
@@ -37,6 +41,10 @@ body {
 
 .otsi {
     font-size: 23px;
+<<<<<<< HEAD
+=======
+    background-color: bisque;
+>>>>>>> a695d35 (changes)
     color: rgb(255, 255, 255);
 }
 
